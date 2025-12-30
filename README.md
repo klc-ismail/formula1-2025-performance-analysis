@@ -165,7 +165,7 @@ The full narrative and interpretation of the analysis is available on Medium:
 **Who Really Made the Difference in Formula 1 2025?**  
 *A Data-Driven Analysis of Pit Stops, Drivers, and Strategy*
 
-*(Medium link to be added)*
+*https://medium.com/@ismail_kilic/who-really-made-the-difference-in-formula-1-2025-a38a1ce176bd*
 
 ---
 
