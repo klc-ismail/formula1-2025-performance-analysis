@@ -64,34 +64,25 @@ Laps affected by pit entry, pit exit, or abnormal conditions are excluded where 
 ## Repository Structure
 
 formula1-2025-performance-analysis/
-├── formula1_pipeline/
-│ ├── main.py # Pipeline entry point
-│ ├── convert_to_raw_to_master.py # Raw OpenF1 → master tables
-│ ├── build_analytics_table.py # Analytics-ready datasets
-│ ├── modules/
-│ │ ├── cache.py
-│ │ ├── collector.py
-│ │ ├── drivers.py
-│ │ ├── races.py
-│ │ ├── season.py
-│ │ ├── team_filter.py
-│ │ └── utils.py
-│ └── raw_data/
-│ └── 2025/
-│ └── <race_id><track_name>/
-│ ├── <driver><team>.json
-│ ├── drivers.json
-│ ├── grid.json
-│ ├── race_control.json
-│ └── session_result.json
+├── formula1_pipeline/          # Data collection & processing pipeline
+│   ├── main.py
+│   ├── convert_to_raw_to_master.py
+│   ├── build_analytics_table.py
+│   ├── modules/               # API access, caching, helpers
+│   └── raw_data/
+│       └── 2025/              # Raw OpenF1 race data (per race)
 │
-├── formula1_analytics/
-│ ├── part1_pit_stop_analyze_en.ipynb
-│ ├── part2_driver_or_car.ipynb
-│ ├── master_laps.csv
-│ ├── master_pit.csv
-│ ├── master_stints.csv
-│ └── master_summary.csv
+├── formula1_analytics/         # Analysis & visualization notebooks
+│   ├── part1_pit_stop_analyze_en.ipynb
+│   ├── part2_driver_or_car.ipynb
+│   ├── master_laps.csv
+│   ├── master_pit.csv
+│   ├── master_stints.csv
+│   └── master_summary.csv
+│
+├── structure.py                # Utility script for exporting folder structure
+└── README.md
+
 
 ---
 
