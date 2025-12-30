@@ -63,6 +63,7 @@ Laps affected by pit entry, pit exit, or abnormal conditions are excluded where 
 
 ## Repository Structure
 
+```text
 formula1-2025-performance-analysis/
 ├── formula1_pipeline/          # Data collection & processing pipeline
 │   ├── main.py
@@ -82,6 +83,8 @@ formula1-2025-performance-analysis/
 │
 ├── structure.py                # Utility script for exporting folder structure
 └── README.md
+```
+
 
 
 ---
